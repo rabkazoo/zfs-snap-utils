@@ -1,0 +1,8 @@
+#!/bin/sh
+PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin
+
+zfs destroy -r zroot@2days_ago
+zfs rename -r zroot@yesterday @2days_ago
+zfs rename -r zroot@today @yesterday
+zfs snapshot -r zroot@today
+
