@@ -1,5 +1,5 @@
 # zfs-snap-utils
-yet another snap util set :)
+yet another snapshot util set :)
 a "snap" cmd front for zfs and some utils. Specifically for freebsd zfs root.
 I keep hourly and 3 day snapshots.
 The "snap" command I use shows relative path entries and can do ls/get(cp))/diff/create/destroy
