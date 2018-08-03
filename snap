@@ -39,7 +39,7 @@ while getopts "hnb" opt ; do
 	    ;;
 	b)
 	    #zpool=$OPTARG
-	    zpool="zackup"
+	    zpool="zbackup"
 	    mprefix="/zbackup/backups"
 	    ;;
 	h)
